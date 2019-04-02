@@ -36,24 +36,10 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class evenNumbersExample {
+public class evenNumbersExampleTry2 {
 
     public static void evenNumbers(Scanner sc1) {
-        int count = 0;
-        int sum = 0;
-        int even = 0;
-        while (sc1.hasNextInt()) {
-            int num = sc1.nextInt();
-            count = count + 1;
-            sum = sum + num;
-
-            // need to do below line when even
-            if (num % 2 == 0) {
-                even = even + 1;
-            }
-        }
-        System.out.println(count + " numbers, sum = " + sum);
-        System.out.println(even + " evens");
+        
 
     }
 
